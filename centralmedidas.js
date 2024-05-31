@@ -90,6 +90,7 @@ export default class CentralMedidas{
         for(let i=0;i<this.Medidas.length;i++){
             if(ciudad==this.Medidas[i][0]){
                 this.Medidas.splice(i,1);
+                return true;
             }
         }
         return true;
